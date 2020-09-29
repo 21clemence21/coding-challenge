@@ -1,0 +1,22 @@
+{
+  "name": "coding-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/21clemence21/coding-challenge.git"
+  },
+  "author": "21clemence21 <depernetclemence@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/21clemence21/coding-challenge/issues"
+  },
+  "homepage": "https://github.com/21clemence21/coding-challenge#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

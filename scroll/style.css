@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin: 0;
+    min-height:100vh;
+}
+
+section {
+    height: 100vh;
+    --sections: 4;
+    --colors: green, blue, red, yellow;
+}
+
+
+@for --i from 0 to --sections {
+  .hero:nth-child(#{--i + 1}) {
+    background: nth($colors, $i + 1);
+  }
+}
